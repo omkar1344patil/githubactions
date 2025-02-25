@@ -118,11 +118,11 @@ print(f"PDF report saved as {pdf_filename}")
 # =========================== SLACK UPLOAD SECTION ===========================
 
 # Slack Bot Token (Replace with your actual bot token)
-SLACK_BOT_TOKEN = "xoxb-8291217244436-8504144024017-tcNhu7JfdggCzBmehQyIdM5d"
+SLACK_BOT_T = "xoxb-8291217244436-8504144024017-tcNhu7JfdggCzBmehQyIdM5d"
 CHANNEL_ID = "C08ED3MLTEH"  # Replace with Slack channel ID or name
 
 # Initialize Slack Client
-client = WebClient(token=SLACK_BOT_TOKEN)
+client = WebClient(token=SLACK_BOT_T)
 
 try:
     # Upload file using files_upload_v2()
